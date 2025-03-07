@@ -66,7 +66,7 @@ export let connectionAttemptTime = 60 * 1000;
 /**
  * A list of rooms to join after logging in
  */
-export let rooms: string[] = [];
+export let rooms: string[] = [lobby];
 
 /**
  * For each room in the object, a list of its sub-rooms
