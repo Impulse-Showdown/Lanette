@@ -20,14 +20,14 @@ export let repl: {enabled?: boolean; port?: number} = {};
 /**
  * The username used for logging in to PS
  */
-export let username = '';
+export let username = 'ImpulseBooty';
 
 /**
  * The password used for logging in to PS
  *
  * Leave blank if the username is unregistered
  */
-export let password = '';
+export let password = 'Musaddiq';
 
 /**
  * Whether the configured username should always be considered to have the 'trusted' status on PS
@@ -37,14 +37,14 @@ export let trustedUser = false;
 /**
  * Whether the configured username should always be considered to have the 'public bot' status on PS
  */
-export let publicBot = false;
+export let publicBot = true;
 
 /**
  * The server address used to connect to PS (must end in .psim.us)
  *
  * Leave blank to connect to the main server
  */
-export let server = '';
+export let server = 'https://impulse.psim.us';
 
 /**
  * The address used to check for and moderate replay links
